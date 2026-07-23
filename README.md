@@ -1,2 +1,5 @@
-# biomimetic-robotic-fish-horizontal-tail-propulsion
-Thiết kế và điều khiển cá Robot 3 khớp, mô phỏng chuyển động bơi của cá và ứng dụng thuật toán CPG, LQR trong điều khiển chuyển động.
+Dự án tập trung vào nghiên cứu, thiết kế và mô phỏng cá Robot với cơ cấu đẩy đuôi theo phương ngang, lấy cảm hứng từ cơ chế chuyển động và bơi lội của cá trong tự nhiên. Mô hình Robot được xây dựng với thân cá và hệ thống đuôi gồm 3 khớp liên kết, kết hợp với các vây ngực nhằm tạo lực đẩy và hỗ trợ điều khiển hướng chuyển động. Cơ cấu đuôi thực hiện dao động tuần hoàn với độ lệch pha giữa các khớp, tạo chuyển động dạng sóng từ thân đến đuôi, giúp mô phỏng chuyển động bơi sinh học và nâng cao khả năng cơ động trong môi trường nước.
+
+Dự án tập trung phân tích các yếu tố thủy động lực học tác động lên Robot như lực đẩy, lực cản và lực nâng, từ đó xây dựng mô hình động lực học mô tả các trạng thái chuyển động. Hệ thống điều khiển được phát triển theo cấu trúc phân cấp, trong đó thuật toán CPG được sử dụng để tạo các tín hiệu dao động nhịp nhàng và phối hợp chuyển động giữa các khớp đuôi. Bộ điều khiển LQR được nghiên cứu nhằm điều khiển trạng thái và quỹ đạo chuyển động của Robot ổn định và hiệu quả.
+
+Mô hình được mô phỏng trên MATLAB/Simulink với các kịch bản bơi thẳng, lặn – nổi, chuyển hướng và chuyển động 3D. Kết quả mô phỏng được sử dụng để đánh giá ảnh hưởng của tần số vẫy đuôi, độ lệch pha và góc vây đến vận tốc, quỹ đạo và khả năng cơ động của Robot, hướng đến phát triển các ứng dụng Robot dưới nước và giám sát môi trường biển
